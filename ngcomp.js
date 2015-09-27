@@ -52,7 +52,7 @@ rl.question('What is your component name?  ', function(answer) {
 
 
 // create directory
-  mkdirp(process.cwd()+'/'+answer, function (err) {
+  mkdirp('./'+answer, function (err) {
   	if (err) { throw err; }
   	// done
   	console.log('Component created successlly!'.green);
