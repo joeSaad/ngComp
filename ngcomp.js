@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 var colors = require('colors');
 
 var javaScriptContent = "angular.module( 'xxxxx', [ \n" +
@@ -53,7 +52,7 @@ rl.question('What is your component name?  ', function(answer) {
 
 
 // create directory
-  mkdirp(__dirname+'/'+answer, function (err) {
+  mkdirp(process.env.PWD+'/'+answer, function (err) {
   	if (err) { throw err; }
   	// done
   	console.log('Component created successlly!'.green);

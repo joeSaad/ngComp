@@ -1,0 +1,52 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose linkPkg /Users/youssefhs/Development/noding2/myNpms/ngcomp
+5 silly gentlyRm /usr/local/lib/node_modules/ngcomp is being purged
+6 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/ngcomp
+7 verbose link build target /usr/local/lib/node_modules/ngcomp
+8 verbose install where, what [ '/Users/youssefhs/Development/noding2/myNpms/ngcomp', [] ]
+9 verbose install where, deps [ '/Users/youssefhs/Development/noding2/myNpms/ngcomp',
+9 verbose install   [ 'colors', 'mkdirp' ] ]
+10 verbose install where, peers [ '/Users/youssefhs/Development/noding2/myNpms/ngcomp', [] ]
+11 info preinstall ngcomp@1.0.8
+12 verbose already installed skipping colors@^1.1.2 /Users/youssefhs/Development/noding2/myNpms/ngcomp
+13 verbose already installed skipping mkdirp@^0.5.1 /Users/youssefhs/Development/noding2/myNpms/ngcomp
+14 silly install resolved []
+15 info build /Users/youssefhs/Development/noding2/myNpms/ngcomp
+16 verbose linkStuff [ false,
+16 verbose linkStuff   false,
+16 verbose linkStuff   false,
+16 verbose linkStuff   '/Users/youssefhs/Development/noding2/myNpms' ]
+17 info linkStuff ngcomp@1.0.8
+18 verbose linkBins ngcomp@1.0.8
+19 verbose linkMans ngcomp@1.0.8
+20 verbose rebuildBundles ngcomp@1.0.8
+21 verbose rebuildBundles [ '.bin', 'colors', 'mkdirp' ]
+22 info install ngcomp@1.0.8
+23 info postinstall ngcomp@1.0.8
+24 info prepublish ngcomp@1.0.8
+25 info build /usr/local/lib/node_modules/ngcomp
+26 verbose linkStuff [ true,
+26 verbose linkStuff   '/usr/local/lib/node_modules',
+26 verbose linkStuff   true,
+26 verbose linkStuff   '/usr/local/lib/node_modules' ]
+27 info linkStuff ngcomp@1.0.8
+28 verbose linkBins ngcomp@1.0.8
+29 verbose link bins [ { ngcomp: 'ngcomp.js' }, '/usr/local/bin', true ]
+30 verbose linkMans ngcomp@1.0.8
+31 verbose stack Error: ENOENT, chmod '/usr/local/lib/node_modules/ngcomp/ngcomp.js'
+31 verbose stack     at Error (native)
+32 verbose cwd /Users/youssefhs/Development/noding2/myNpms/ngcomp
+33 error Darwin 14.4.0
+34 error argv "node" "/usr/local/bin/npm" "link"
+35 error node v0.12.2
+36 error npm  v2.7.4
+37 error path /usr/local/lib/node_modules/ngcomp/ngcomp.js
+38 error code ENOENT
+39 error errno -2
+40 error enoent ENOENT, chmod '/usr/local/lib/node_modules/ngcomp/ngcomp.js'
+40 error enoent This is most likely not a problem with npm itself
+40 error enoent and is related to npm not being able to find a file.
+41 verbose exit [ -2, true ]

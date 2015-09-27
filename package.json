@@ -1,8 +1,8 @@
 {
   "name": "ngcomp",
-  "version": "1.0.9",
+  "version": "1.0.8",
   "description": "This is an npm package that works alongside ng-boilerplate for creating and adding components using a command strike. The command will create your directory structure for the new component and all the files included along with the content of those files changed based on the name of the new component. ",
-  "main": "index.js",
+  "main": "ngcomp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,7 +26,8 @@
     "colors": "^1.1.2",
     "mkdirp": "^0.5.1"
   },
+  "preferGlobal": "true",
   "bin": {
-    "ngcomp": "./index.js"
+    "ngcomp": "./ngcomp.js"
   }
 }
