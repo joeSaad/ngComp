@@ -64,7 +64,7 @@ var filesToCreate = ['.js', '.less', '.tpl.html', '.spec.js' ];
 var filesContents = [javaScriptContent, lessContent, partialContent, specJSContent];
 
 for (var i = 0; i < filesToCreate.length; i++) {
-  fs.writeFile(__dirname+'/'+answer+'/'+answer+filesToCreate[i], filesContents[i].replace(/xxxxx/g, answer), function(err) {
+  fs.writeFile('./'+answer+'/'+answer+filesToCreate[i], filesContents[i].replace(/xxxxx/g, answer), function(err) {
     if(err) {
         return console.log(err);
     }    
