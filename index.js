@@ -1,13 +1,5 @@
-/*var fs    = require('fs')
-  , path  = require('path');
-
-console.log(__dirname);
-*/
 
 var colors = require('colors');
-
-//var javaScriptContent = "angular.module( 'xxxxx', ['ui.router','plusOne']).config(function config( $stateProvider ) {$stateProvider.state( 'xxxxx', {url: '/xxxxx', views: {'main': {controller: 'xxxxxCtrl', templateUrl: 'xxxxx/xxxxx.tpl.html'} }, data:{ pageTitle: 'xxxxx' } }); }) .controller( 'xxxxxCtrl', function xxxxxController( $scope ) {}) ;";
-
 
 var javaScriptContent = "angular.module( 'xxxxx', [ \n" +
   "'ui.router', \n"+
